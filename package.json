@@ -1,0 +1,20 @@
+{
+  "name": "ticket-monitor-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for monitoring ticket availability",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["telegram", "bot", "tickets", "monitoring"],
+  "author": "Your Name",
+  "license": "MIT"
+}
